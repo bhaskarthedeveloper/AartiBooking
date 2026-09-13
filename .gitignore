@@ -1,0 +1,47 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js Build Output
+/.next/
+/out/
+
+# Production & Development Builds
+build
+dist
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env*.local
+.env.production
+.env.staging
+
+# Local Dumps & Temp Files (From your file tree)
+_events_*.json
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js telemetry & cache
+.next/cache
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE & Editor Configs
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Generated Files
+.DS_Store
+Thumbs.db

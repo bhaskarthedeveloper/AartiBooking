@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Ensure all form controls naturally inherit the global Arimo font */
+input, select, textarea, button {
+  font-family: inherit;
+}
+
+/* Flutter colorize animation for the banner (ColorizeAnimatedText in textkit) */
+@keyframes flutterColorize {
+  0% {
+    color: rgb(4, 5, 4);
+  }
+  33% {
+    color: rgb(6, 53, 92);
+  }
+  66% {
+    color: rgb(114, 105, 23);
+  }
+  100% {
+    color: rgb(8, 2, 2);
+  }
+}
+
+.animate-flutter-colorize {
+  animation: flutterColorize 6s infinite alternate ease-in-out;
+}
